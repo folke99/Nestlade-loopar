@@ -68,17 +68,34 @@ namespace Nestlade_loopar
             /*
             for (int i = 10; i > 0; i--)
             {
-                for (int x = 0; x < 1; x++)
+                for (int y = 0; y < i; y++)
                 {
-                    for (int y = 0; y < i; y++)
-                    {
-                        Console.Write("#");
-                    }
+                    Console.Write("#");
                 }
                 Console.WriteLine();
             }
             Console.ReadKey();
             */
+            //Övning 4
+            /*
+            for (int i = 0; i < 10; i++)
+            {
+                for (int y = 0; y < 10; y++)
+                {
+                    if (y < i)
+                    {
+                        Console.Write(".");
+                    }
+                    if (y > i)
+                    {
+                        Console.Write("#");
+                    }                
+                }               
+                Console.WriteLine();
+            }
+            Console.ReadKey();
+            */
+            //Övning 5
         }//staticcc
     }
 }
