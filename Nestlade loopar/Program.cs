@@ -96,6 +96,60 @@ namespace Nestlade_loopar
             Console.ReadKey();
             */
             //Övning 5
+            /*
+            for (int i = 0; i < 7; i++)
+            {
+                for (int y = 0; y < 7; y++)
+                {
+                    if (y == i || y+i == 6)
+                    {
+                        Console.Write("*");
+                    }
+                    else {
+                        Console.Write(".");
+                    }
+                }
+                Console.WriteLine();
+            }
+            Console.ReadKey();
+            */
+            //Övning 6
+            /*
+            for (int i = 0; i < 7; i++)
+            {
+                for (int y = 0; y < 7; y++)
+                {
+                    if ((y < i || y + i < 6 )&& (y > i || y + i > 6))
+                    {
+                        Console.Write(".");
+                    }
+                    else
+                    {
+                        Console.Write("*");
+                    }
+                }
+                Console.WriteLine();
+            }
+            Console.ReadKey();
+            */
+            //Övning 7
+            for (int i = 0; i < 9; i++)
+            {
+                for (int y = 0; y < 9; y++)
+                {
+                    if (y+i < 4 || y-i > 4 || y+i > 12 )
+                    {
+                        Console.Write(".");
+                    }
+                    else
+                    {
+                        Console.Write("*");
+                    }
+                }
+                Console.WriteLine();
+            }
+            Console.ReadKey();
+
         }//staticcc
     }
 }
