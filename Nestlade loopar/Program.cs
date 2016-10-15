@@ -13,52 +13,47 @@ namespace Nestlade_loopar
 
             //Övning 1
             /*
-            for (int i = 0; i < 10; i++)
+            for (int i = 0; i < 10; i++) //yttre loop
             {
-                for (int x = 0; x < 10; x++)
+                for (int x = 0; x < 10; x++) //innre loop
                 {
                     if (x % 2 == 0)
-                    {
                         Console.Write("o");
-                    }
+
                     else
-                    {
                         Console.Write("#");
-                    } 
                 }
+
                 Console.WriteLine();
             }
+
             Console.ReadKey();
             */
             //Övning 2
             /*
-            for (int i = 0; i < 11; i++)
+            for (int i = 0; i < 11; i++)//Yttre loop
             {
-                for (int x = 0; x < 11; x++)
+                for (int x = 0; x < 11; x++)// innre loop
                 {
 
                     if (i % 2 == 0)
                     {                    
-                        if (x % 2 == 0)
-                        {
+                        if (x % 2 == 0)                     
                             Console.Write("o");
-                        }
-                        else
-                        {
+                        
+                        else                       
                             Console.Write("#");
-                        }
                     }
+
                     else
                     {
-                        if (x % 2 == 0)
-                        {
+                        if (x % 2 == 0)                      
                             Console.Write("#");
-                        }
-                        else
-                        {
-                            Console.Write("o");
-                        }
+                        
+                        else                       
+                            Console.Write("o");                       
                     }
+
                 }
                 Console.WriteLine();
             }
@@ -105,7 +100,8 @@ namespace Nestlade_loopar
                     {
                         Console.Write("*");
                     }
-                    else {
+                    else 
+                    {
                         Console.Write(".");
                     }
                 }
@@ -133,11 +129,12 @@ namespace Nestlade_loopar
             Console.ReadKey();
             */
             //Övning 7
+            /*
             for (int i = 0; i < 9; i++)
             {
                 for (int y = 0; y < 9; y++)
                 {
-                    if (y+i < 4 || y-i > 4 || y+i > 12 )
+                    if (y+i < 4 || y-i > 4 || y+i > 12 || (i > 4 && i-y > 4))
                     {
                         Console.Write(".");
                     }
@@ -149,7 +146,7 @@ namespace Nestlade_loopar
                 Console.WriteLine();
             }
             Console.ReadKey();
-
+            */
         }//staticcc
     }
 }
