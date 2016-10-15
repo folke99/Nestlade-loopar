@@ -24,7 +24,7 @@ namespace Nestlade_loopar
                     else
                     {
                         Console.Write("#");
-                    }
+                    } 
                 }
                 Console.WriteLine();
             }
